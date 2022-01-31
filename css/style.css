@@ -1,0 +1,78 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+max-width: 1200px;
+margin: auto;
+text-align: center;
+background-color: #2ecc71;
+color: #fff;
+height: 100vh;
+padding: 2rem;
+}
+
+#task-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+#task-form label {
+  padding-bottom: 1rem;
+  font-size: 1.5rem
+}
+
+#task-area {
+  display: flex;
+}
+
+#task-area input:nth-child(1) {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+#task-area .btn {
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #e67e22;
+  color: #fff;
+
+}
+
+#task-area .btn:hover {
+  opacity: 0.8;
+}
+
+/* Task List Area */
+#tasks-list {
+  color: #333;
+  margin: 2rem;
+}
+
+#tasks-list ul {
+  list-style: none;
+}
+
+#tasks-list ul li {
+  margin: 1rem;
+  border: 1px solid #333;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tasks-list ul li a {
+  color: #333;
+  width: 10px;
+}
